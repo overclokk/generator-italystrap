@@ -1,0 +1,48 @@
+{
+  "name": "generator-italystrap",
+  "version": "1.0.0",
+  "description": "ItalyStrap starter theme Yeoman generator for wordpress",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "overclokk/generator-italystrap",
+  "author": {
+    "name": "Enea Overclokk",
+    "email": "info@overclokk.net",
+    "url": "http://www.overclokk.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overclokk/ItalyStrap.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman",
+    "yeoman-generator",
+    "yo",
+    "wordpress",
+    "generator",
+    "cli",
+    "tool",
+    "cms",
+    "development",
+    "theme"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

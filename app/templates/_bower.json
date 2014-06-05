@@ -1,0 +1,20 @@
+{
+  "name": "ItalyStrap-Generator",
+  "description": "My workflow for develope WordPress theme",
+  "version": "1.7.0",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ItalyStrap-child": "git://github.com/overclokk/ItalyStrap-child.git",
+    "ItalyStrap": "git://github.com/overclokk/ItalyStrap.git"
+  }
+}
