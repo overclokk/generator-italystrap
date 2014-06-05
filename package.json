@@ -1,6 +1,6 @@
 {
   "name": "generator-italystrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ItalyStrap starter theme Yeoman generator for wordpress",
   "license": "MIT",
   "main": "app/index.js",
