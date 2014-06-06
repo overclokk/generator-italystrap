@@ -3,7 +3,14 @@ var util = require('util');
 var path = require('path');
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
+var updateNotifier = require('update-notifier');
+var notifier = updateNotifier({
+    updateCheckInterval: 1000 * 60 * 60 * 24 * 7 // 1 week
+});
 
+if (notifier.update) {
+    notifier.notify('Update available: ' + notifier.update.latest);
+}
 
 var ItalystrapGenerator = yeoman.generators.Base.extend({
   init: function () {
