@@ -1,7 +1,8 @@
 {
   "name": "generator-italystrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ItalyStrap starter theme Yeoman generator for wordpress",
+  "homepage": "https://www.overclokk.net/yeoman-italystrap-generator",
   "license": "MIT",
   "main": "app/index.js",
   "author": {
